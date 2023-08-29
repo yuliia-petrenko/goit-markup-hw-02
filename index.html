@@ -3,68 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+    />
+
     <title>Effective Solutions for Your Business</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <header>
+    <header class="content-studio">
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="content-logo" href="./index.html"
+          ><span class="content-web">Web</span>Studio</a
+        >
         <ul>
           <li>
-            <a href="">Studio</a>
+            <a class="content-header-nav" href="#">Studio</a>
           </li>
           <li>
-            <a href="">Portfolio</a>
+            <a class="content-header-nav" href="#">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a class="content-header-nav" href="#">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- Top line -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="slog-but">
+        <h1 class="slogan">Effective Solutions for Your Business</h1>
+        <button class="btn-service" type="button">Order Service</button>
       </section>
       <!-- Deteilse -->
 
       <section>
-        <h2>Punctuality</h2>
+        <h2 class="list">Punctuality</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="category">Strategy</h3>
+            <p class="text-category">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="category">Punctuality</h3>
+            <p class="text-category">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="category">Diligence</h3>
+            <p class="text-category">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="category">Technologies</h3>
+            <p class="text-category">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -73,93 +98,93 @@
       </section>
 
       <!-- Our team -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="team">
+        <h2 class="text-titel">Our team</h2>
         <ul>
-          <li>
+          <li class="team-frame">
             <!-- mark -->
 
             <img src="./images/img.jpg" alt="Photo Mark" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="team-position">Product Designer</p>
           </li>
           <!-- tom -->
-          <li>
+          <li class="team-frame">
             <img src="./images/img-2.jpg" alt="Photo Tom" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Tom Ford</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <!-- camila -->
-          <li>
+          <li class="team-frame">
             <img src="./images/img-3.jpg" alt="Photo Camila" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-name">Camila Garcia</h3>
+            <p class="team-position">Marketing</p>
           </li>
           <!-- daniel -->
-          <li>
+          <li class="team-frame">
             <img src="./images/img-4.jpg" alt="Photo Camila" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name">Daniel Wilson</h3>
+            <p class="team-position">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- portfolio -->
       <section>
-        <h2>Our Portfolio</h2>
+        <h2 class="text-titel">Our Portfolio</h2>
         <ul>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/banking-app.webp"
               alt="Banking App"
               width="360"
             />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <h3 class="portfolio-offers">Banking App</h3>
+            <p class="portfolio-text">App</p>
           </li>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/cashles.webp"
               alt="cashles"
               width="360"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-offers">Cashless Payment</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/maditation.webp"
               alt="meditation"
               width="360"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="portfolio-offers">Meditation App</h3>
+            <p class="portfolio-text">App</p>
           </li>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/taxi-service.webp"
               alt="taxi service"
               width="360"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-offers">Taxi Service</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/screen.webp"
               alt="screen"
               width="360"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h3 class="portfolio-offers">Screen Illustrations</h3>
+            <p class="portfolio-text">Design</p>
           </li>
-          <li>
+          <li class="portfolio-frame">
             <img
               src="./images/portfolio/online-courses.webp"
               alt="online courses"
               width="360"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="portfolio-offers">Online Courses</h3>
+            <p class="portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
