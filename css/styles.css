@@ -8,6 +8,7 @@ body {
 ul {
   list-style-type: none;
   font-family: inherit;
+  text-decoration: none;
 }
 /* logo */
 .content-logo {
@@ -47,6 +48,7 @@ ul {
 }
 .contact-adress {
   color: #434455;
+  text-decoration: none;
 }
 
 .contact-adress:hover {
